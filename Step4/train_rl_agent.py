@@ -17,7 +17,7 @@ import torch
 step3_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'Step3', 'OSpro')
 sys.path.append(step3_path)
 
-from cpuscheduler_env import CPUSchedulerEnv
+from demo.CPUSchedulerEnv import CPUSchedulerEnv
 
 def create_env():
     """Create and configure the CPU Scheduler environment"""
